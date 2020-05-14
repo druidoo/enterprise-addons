@@ -11,6 +11,7 @@
     "license": "AGPL-3",
     "depends": ["crm", "documents"],
     "data": [
+        "data/document_data.xml",
         "views/lead_views.xml",
         "views/documents_document_views.xml",
         "views/assets.xml",

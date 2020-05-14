@@ -1,6 +1,8 @@
 odoo.define('crm_lead_documents.DocumentsKanbanController', function (require) {
 "use strict";
 var core = require('web.core');
+var _t = core._t;
+
 var DocumentsKanbanController = require('documents.DocumentsKanbanController');
 DocumentsKanbanController.include({
     //Completely Overwrite this method to set lead id in context when upload new document from any lead / opportunity

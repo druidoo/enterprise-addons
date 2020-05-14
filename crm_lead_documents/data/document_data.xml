@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="documents_lead_folder" model="documents.folder">
+            <field name="name">Lead / Opportunity</field>
+            <field name="description" type="html">
+                <p>Categorize, share and keep track of all your Lead/Opportunity documents.</p>
+            </field>
+            <field name="sequence">10</field>
+        </record>
+    </data>
+</odoo>

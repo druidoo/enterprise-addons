@@ -30,6 +30,6 @@ class CRMLead(models.Model):
             'context': {
                 "search_default_lead_id": self.id,
                 "default_lead_id": self.id,
-                "searchpanel_default_folder_id": False
+                "searchpanel_default_folder_id": self.env.ref('crm_lead_documents.documents_lead_folder').id
             },
         }

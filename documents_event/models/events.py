@@ -1,8 +1,8 @@
-from odoo import fields, models
+from odoo import fields, models, _
 
 
 class Events(models.Model):
-    _name = 'event.event'
+    _name = "event.event"
     _inherit = ['event.event', 'documents.mixin']
 
     def _get_document_tags(self):
@@ -25,12 +25,16 @@ class Events(models.Model):
             ])
 
     def action_see_documents(self):
-        attachment_action = self.env.ref('base.action_attachment')
-        action = attachment_action.read()[0]
-        action['domain'] = str([
-            ('res_model', '=', 'event.event'),
-            ('res_id', 'in', self.ids),
-        ])
-        action['context'] = "{'default_res_model': '%s',\
-            'default_res_id': %d}" % (self._name, self.id)
-        return action
+        self.ensure_one()
+        return {
+            'name': _('Documents'),
+            'res_model': 'documents.document',
+            'type': 'ir.actions.act_window',
+            'views': [(False, 'kanban')],
+            'view_mode': 'kanban',
+            'context': {
+                "search_default_res_id": self.id,
+                "default_res_id": self.id,
+                "searchpanel_default_folder_id": self.company_id.events_folder,
+            },
+        }

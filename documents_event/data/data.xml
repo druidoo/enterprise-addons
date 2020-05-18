@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+        <record id="documents_events_folder" model="documents.folder">
+            <field name="name">Events</field>
+            <field name="sequence">16</field>
+        </record>
+
+        <record id="base.main_company" model="res.company">
+            <field name="events_folder" ref="documents_events_folder"/>
+        </record>
+
+        <record id="documents_events_documents_facet" model="documents.facet">
+            <field name="name">Documents</field>
+            <field name="sequence">5</field>
+            <field name="folder_id" ref="documents_events_folder"/>
+        </record>
+
+        <record id="documents_events_new_tag" model="documents.tag">
+            <field name="name">New</field>
+            <field name="facet_id" ref="documents_events_documents_facet"/>
+            <field name="sequence">6</field>
+        </record>
+
+</odoo>

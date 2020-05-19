@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="document_view_search_inherit" model="ir.ui.view">
+        <field name="name">documents.document.search</field>
+        <field name="model">documents.document</field>
+        <field name="inherit_id" ref="documents.document_view_search"/>
+        <field name="arch" type="xml">
+            <field name="create_uid" position="after">
+                <field name="res_id"/>
+                <field name="res_model"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

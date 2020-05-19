@@ -4,8 +4,10 @@ from odoo import models, fields
 class WorkflowActionRuleevents(models.Model):
     _inherit = ['documents.workflow.rule']
 
-    has_business_option = fields.Boolean(default=True,
-                                         compute='_get_business')
+    has_business_option = fields.Boolean(
+        default=True,
+        compute='_get_business',
+    )
     create_model = fields.Selection(selection_add=[('event.event', "Event")])
 
     def create_record(self, documents=None):
@@ -13,7 +15,10 @@ class WorkflowActionRuleevents(models.Model):
             documents=documents)
         if self.create_model == 'event.event':
             new_obj = self.env[self.create_model].create({
-                'name': "new event from Documents"})
+                "name": "New Event from Documents",
+                "date_begin": fields.Datetime.now(),
+                "date_end": fields.Datetime.now(),
+            })
             events_action = {
                 'type': 'ir.actions.act_window',
                 'res_model': self.create_model,
@@ -25,8 +30,10 @@ class WorkflowActionRuleevents(models.Model):
             }
             for document in documents:
                 this_document = document
-                if (document.res_model or document.res_id) and \
-                        document.res_model != 'documents.document':
+                if (
+                    (document.res_model or document.res_id) and
+                    document.res_model != 'documents.document'
+                ):
                     this_document = document.copy()
                     attachment_id_copy = document.attachment_id.with_context(
                         no_document=True).copy()
@@ -37,6 +44,6 @@ class WorkflowActionRuleevents(models.Model):
                     no_document=True).write({
                         'res_model': self.create_model,
                         'res_id': new_obj.id
-                        })
+                    })
             return events_action
         return rv

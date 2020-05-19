@@ -7,7 +7,8 @@ class ResConfigSettings(models.TransientModel):
     documents_events_settings = fields.Boolean(
         related="company_id.documents_events_settings",
         readonly=False,
-        string="Events")
+        string="Events",
+    )
     events_folder = fields.Many2one(
         "documents.folder",
         related="company_id.events_folder",
@@ -15,9 +16,10 @@ class ResConfigSettings(models.TransientModel):
         string="Events default workspace",
     )
     events_tags = fields.Many2many(
-       "documents.tag", "events_tags_table",
-       related="company_id.events_tags",
-       readonly=False,
+        "documents.tag",
+        "events_tags_table",
+        related="company_id.events_tags",
+        readonly=False,
     )
 
     @api.onchange('events_folder')

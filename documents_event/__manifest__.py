@@ -9,7 +9,7 @@
     "license": "AGPL-3",
     "depends": [
         "event",
-        "documents",
+        "documents_res_model_helper",
     ],
     "data": [
         "data/data.xml",

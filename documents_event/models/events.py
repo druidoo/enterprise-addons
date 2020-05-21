@@ -31,12 +31,17 @@ class Events(models.Model):
             'res_model': 'documents.document',
             'type': 'ir.actions.act_window',
             'views': [(False, 'kanban')],
-            'view_mode': 'kanban',
+            'view_mode': 'tree,kanban',
             'domain': [
                 ('res_id', 'in', self.ids),
                 ('res_model', '=', 'event.event'),
             ],
             'context': {
-                "searchpanel_default_folder_id": self.company_id.events_folder,
+                "search_default_res_id": self.id,
+                "search_default_res_model": "event.event",
+                "default_res_id": self.id,
+                "default_res_model": "event.event",
+                "searchpanel_default_folder_id": self.company_id.
+                    events_folder.id,
             },
         }

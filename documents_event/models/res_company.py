@@ -8,7 +8,7 @@ class ResCompany(models.Model):
         company = self.env.company
         return ['|', ('company_id', '=', False), ('company_id', '=', company)]
 
-    documents_events_settings = fields.Boolean()
+    documents_events_settings = fields.Boolean(default=True)
     events_folder = fields.Many2one(
         "documents.folder",
         string="Events Workspace",

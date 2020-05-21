@@ -1,7 +1,7 @@
 # Copyright (C) 2020-Today: Druidoo (<https://www.druidoo.io>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html
 {
-    "name": "Event Document management",
+    "name": "Documents - Event",
     "version": "13.0.1.0.0",
     "category": "Operations/Documents",
     "author": "Druidoo",

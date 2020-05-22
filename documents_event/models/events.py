@@ -32,10 +32,6 @@ class Events(models.Model):
             'type': 'ir.actions.act_window',
             'views': [(False, 'kanban')],
             'view_mode': 'tree,kanban',
-            'domain': [
-                ('res_id', 'in', self.ids),
-                ('res_model', '=', 'event.event'),
-            ],
             'context': {
                 "search_default_res_id": self.id,
                 "search_default_res_model": "event.event",

@@ -1,0 +1,131 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_crm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-08 15:51+0000\n"
+"PO-Revision-Date: 2020-06-08 15:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: documents_crm
+#: model_terms:ir.ui.view,arch_db:documents_crm.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Les valeurs définies ici sont"
+" spécifiques à l'entreprise.\" aria-label=\"Les valeurs définies ici sont "
+"spécifiques à l'entreprise.\" groups=\"base.group_multi_company\" "
+"role=\"img\"/>"
+
+#. module: documents_crm
+#: model_terms:ir.ui.view,arch_db:documents_crm.documents_document_crm_lead_view
+msgid "<span class=\"o_stat_text\">Documents</span>"
+msgstr ""
+
+#. module: documents_crm
+#: model:ir.model,name:documents_crm.model_documents_workflow_rule
+msgid ""
+"A set of condition and actions which will be available to all attachments "
+"matching the conditions"
+msgstr ""
+"Un ensemble de conditions et d'actions qui seront disponibles pour toutes "
+"les pièces jointes correspondant aux conditions"
+
+#. module: documents_crm
+#: model:documents.folder,name:documents_crm.documents_crm_lead_folder
+#: model:ir.model.fields,field_description:documents_crm.field_res_config_settings__documents_crm_lead_settings
+msgid "CRM Lead"
+msgstr ""
+
+#. module: documents_crm
+#: model:ir.model.fields,field_description:documents_crm.field_res_company__crm_lead_folder
+msgid "CRM Lead Workspace"
+msgstr ""
+
+#. module: documents_crm
+#: model:ir.model.fields,field_description:documents_crm.field_res_config_settings__crm_lead_folder
+msgid "CRM Lead default workspace"
+msgstr ""
+
+#. module: documents_crm
+#: model_terms:ir.ui.view,arch_db:documents_crm.res_config_settings_view_form
+msgid "Centralize files attached to CRM Lead"
+msgstr ""
+
+#. module: documents_crm
+#: model:ir.model,name:documents_crm.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: documents_crm
+#: model:ir.model,name:documents_crm.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: documents_crm
+#: model:ir.model.fields,field_description:documents_crm.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "Créer"
+
+#. module: documents_crm
+#: model:ir.model.fields,field_description:documents_crm.field_res_company__crm_lead_tags
+#: model:ir.model.fields,field_description:documents_crm.field_res_config_settings__crm_lead_tags
+msgid "Crm Lead Tags"
+msgstr ""
+
+#. module: documents_crm
+#: model_terms:ir.ui.view,arch_db:documents_crm.res_config_settings_view_form
+msgid "Default Tags"
+msgstr "Etiquettes par Défaut"
+
+#. module: documents_crm
+#: model:ir.model.fields,field_description:documents_crm.field_crm_lead__document_count
+msgid "Document Count"
+msgstr "Nombre de document"
+
+#. module: documents_crm
+#: code:addons/documents_crm/models/crm_lead.py:0
+#: model:documents.facet,name:documents_crm.documents_crm_lead_documents_facet
+#, python-format
+msgid "Documents"
+msgstr ""
+
+#. module: documents_crm
+#: model:ir.model.fields,field_description:documents_crm.field_res_company__documents_crm_lead_settings
+msgid "Documents Crm Lead Settings"
+msgstr ""
+
+#. module: documents_crm
+#: model:ir.model.fields,field_description:documents_crm.field_documents_workflow_rule__has_business_option
+msgid "Has Business Option"
+msgstr "A l'Option Business"
+
+#. module: documents_crm
+#: model:ir.model.fields.selection,name:documents_crm.selection__documents_workflow_rule__create_model__crm_lead
+msgid "Lead"
+msgstr "Piste"
+
+#. module: documents_crm
+#: model:ir.model,name:documents_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Piste/opportunité"
+
+#. module: documents_crm
+#: model:documents.tag,name:documents_crm.documents_crm_lead_new_tag
+msgid "New"
+msgstr "Nouveau"
+
+#. module: documents_crm
+#: model_terms:ir.ui.view,arch_db:documents_crm.res_config_settings_view_form
+msgid "Workspace"
+msgstr "Espace de travail "

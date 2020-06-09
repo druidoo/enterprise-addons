@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_event
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-08 15:26+0000\n"
+"PO-Revision-Date: 2020-06-08 15:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: documents_event
+#: model_terms:ir.ui.view,arch_db:documents_event.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Les valeurs définies ici sont"
+" spécifiques à l'entreprise.\" aria-label=\"Les valeurs définies ici sont "
+"spécifiques à l'entreprise.\" groups=\"base.group_multi_company\" "
+"role=\"img\"/>"
+
+#. module: documents_event
+#: model_terms:ir.ui.view,arch_db:documents_event.documents_document_event_event_view
+msgid "<span class=\"o_stat_text\">Documents</span>"
+msgstr ""
+
+#. module: documents_event
+#: model:ir.model,name:documents_event.model_documents_workflow_rule
+msgid ""
+"A set of condition and actions which will be available to all attachments "
+"matching the conditions"
+msgstr ""
+"Un ensemble de conditions et d'actions qui seront disponibles pour toutes "
+"les pièces jointes correspondant aux conditions"
+
+#. module: documents_event
+#: model_terms:ir.ui.view,arch_db:documents_event.res_config_settings_view_form
+msgid "Centralize files attached to events"
+msgstr "Centraliser les fichiers joints aux événements\n"
+
+#. module: documents_event
+#: model:ir.model,name:documents_event.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: documents_event
+#: model:ir.model,name:documents_event.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: documents_event
+#: model:ir.model.fields,field_description:documents_event.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "Créer"
+
+#. module: documents_event
+#: model_terms:ir.ui.view,arch_db:documents_event.res_config_settings_view_form
+msgid "Default Tags"
+msgstr "Etiquettes par Défaut"
+
+#. module: documents_event
+#: model:ir.model.fields,field_description:documents_event.field_event_event__document_count
+msgid "Document Count"
+msgstr "Nombre de document"
+
+#. module: documents_event
+#: code:addons/documents_event/models/events.py:0
+#: model:documents.facet,name:documents_event.documents_events_documents_facet
+#, python-format
+msgid "Documents"
+msgstr ""
+
+#. module: documents_event
+#: model:ir.model.fields,field_description:documents_event.field_res_company__documents_events_settings
+msgid "Documents Events Settings"
+msgstr "Configuration des documents lié aux événements"
+
+#. module: documents_event
+#: model:ir.model,name:documents_event.model_event_event
+#: model:ir.model.fields.selection,name:documents_event.selection__documents_workflow_rule__create_model__event_event
+msgid "Event"
+msgstr "Événement"
+
+#. module: documents_event
+#: model:documents.folder,name:documents_event.documents_events_folder
+#: model:ir.model.fields,field_description:documents_event.field_res_config_settings__documents_events_settings
+msgid "Events"
+msgstr "Evènements"
+
+#. module: documents_event
+#: model:ir.model.fields,field_description:documents_event.field_res_company__events_tags
+#: model:ir.model.fields,field_description:documents_event.field_res_config_settings__events_tags
+msgid "Events Tags"
+msgstr "Étiquettes d’Événements"
+
+#. module: documents_event
+#: model:ir.model.fields,field_description:documents_event.field_res_company__events_folder
+msgid "Events Workspace"
+msgstr "Espace de travail des événements\n"
+
+#. module: documents_event
+#: model:ir.model.fields,field_description:documents_event.field_res_config_settings__events_folder
+msgid "Events default workspace"
+msgstr "Espace de travail par défaut des événements\n"
+
+#. module: documents_event
+#: model:ir.model.fields,field_description:documents_event.field_documents_workflow_rule__has_business_option
+msgid "Has Business Option"
+msgstr "A l'Option Business"
+
+#. module: documents_event
+#: model:documents.tag,name:documents_event.documents_events_new_tag
+msgid "New"
+msgstr "Nouveau"
+
+#. module: documents_event
+#: model_terms:ir.ui.view,arch_db:documents_event.res_config_settings_view_form
+msgid "Workspace"
+msgstr "Espace de travail "

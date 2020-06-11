@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-08 15:51+0000\n"
-"PO-Revision-Date: 2020-06-08 15:51+0000\n"
+"POT-Creation-Date: 2020-06-10 14:08+0000\n"
+"PO-Revision-Date: 2020-06-10 14:08+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -45,22 +45,22 @@ msgstr ""
 #: model:documents.folder,name:documents_crm.documents_crm_lead_folder
 #: model:ir.model.fields,field_description:documents_crm.field_res_config_settings__documents_crm_lead_settings
 msgid "CRM Lead"
-msgstr ""
+msgstr "Responsable CRM"
 
 #. module: documents_crm
 #: model:ir.model.fields,field_description:documents_crm.field_res_company__crm_lead_folder
 msgid "CRM Lead Workspace"
-msgstr ""
+msgstr "Espace de travail principal du responsable\n"
 
 #. module: documents_crm
 #: model:ir.model.fields,field_description:documents_crm.field_res_config_settings__crm_lead_folder
 msgid "CRM Lead default workspace"
-msgstr ""
+msgstr "Espace de travail par défaut du responsable\n"
 
 #. module: documents_crm
 #: model_terms:ir.ui.view,arch_db:documents_crm.res_config_settings_view_form
 msgid "Centralize files attached to CRM Lead"
-msgstr ""
+msgstr "Centraliser les fichiers joints pour le responsable\n"
 
 #. module: documents_crm
 #: model:ir.model,name:documents_crm.model_res_company
@@ -81,7 +81,7 @@ msgstr "Créer"
 #: model:ir.model.fields,field_description:documents_crm.field_res_company__crm_lead_tags
 #: model:ir.model.fields,field_description:documents_crm.field_res_config_settings__crm_lead_tags
 msgid "Crm Lead Tags"
-msgstr ""
+msgstr "Étiquettes CRM\n"
 
 #. module: documents_crm
 #: model_terms:ir.ui.view,arch_db:documents_crm.res_config_settings_view_form
@@ -103,7 +103,7 @@ msgstr ""
 #. module: documents_crm
 #: model:ir.model.fields,field_description:documents_crm.field_res_company__documents_crm_lead_settings
 msgid "Documents Crm Lead Settings"
-msgstr ""
+msgstr "Configuration des documents du responsable"
 
 #. module: documents_crm
 #: model:ir.model.fields,field_description:documents_crm.field_documents_workflow_rule__has_business_option

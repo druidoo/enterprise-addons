@@ -1,1 +1,5 @@
-# Add oca repositories here
+# Odoo enterprise
+https://$DEPLOY_GITHUB_USER:$DEPLOY_GITHUB_TOKEN@github.com/odoo/enterprise.git
+
+# Druidoo addons
+https://github.com/druidoo/druidoo-addons.git

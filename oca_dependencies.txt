@@ -1,5 +1,5 @@
 # Odoo enterprise
-https://$DEPLOY_GITHUB_USER:$DEPLOY_GITHUB_TOKEN@github.com/odoo/enterprise.git
+enterprise https://$GITHUB_USER:$GITHUB_TOKEN@github.com/odoo/enterprise.git
 
 # Druidoo addons
-https://github.com/druidoo/druidoo-addons.git
+druidoo-addons https://github.com/druidoo/druidoo-addons.git

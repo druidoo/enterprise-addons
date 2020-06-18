@@ -1,0 +1,112 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_fleet_vehicle
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: documents_fleet_vehicle
+#: model_terms:ir.ui.view,arch_db:documents_fleet_vehicle.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model_terms:ir.ui.view,arch_db:documents_fleet_vehicle.fleet_vehicle_view_form
+msgid "<span class=\"o_stat_text\">Documents</span>"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model,name:documents_fleet_vehicle.model_documents_workflow_rule
+msgid ""
+"A set of condition and actions which will be available to all attachments "
+"matching the conditions"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model_terms:ir.ui.view,arch_db:documents_fleet_vehicle.res_config_settings_view_form
+msgid "Centralize files attached to vehicle"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model,name:documents_fleet_vehicle.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model,name:documents_fleet_vehicle.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model_terms:ir.ui.view,arch_db:documents_fleet_vehicle.res_config_settings_view_form
+msgid "Default Tags"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_fleet_vehicle__document_count
+msgid "Document Count"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: code:addons/documents_fleet_vehicle/models/fleet_vehicle.py:0
+#, python-format
+msgid "Documents"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_res_company__documents_vehicle_settings
+msgid "Documents Vehicle Settings"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_documents_workflow_rule__has_business_option
+msgid "Has Business Option"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model,name:documents_fleet_vehicle.model_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_res_config_settings__documents_vehicle_settings
+msgid "Vehicle"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_res_company__vehicle_tags
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_res_config_settings__vehicle_tags
+msgid "Vehicle Tags"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_res_company__vehicle_folder
+msgid "Vehicle Workspace"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields,field_description:documents_fleet_vehicle.field_res_config_settings__vehicle_folder
+msgid "Vehicle default workspace"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model_terms:ir.ui.view,arch_db:documents_fleet_vehicle.res_config_settings_view_form
+msgid "Workspace"
+msgstr ""
+
+#. module: documents_fleet_vehicle
+#: model:ir.model.fields.selection,name:documents_fleet_vehicle.selection__documents_workflow_rule__create_model__fleet_vehicle
+msgid "vehicle"
+msgstr ""

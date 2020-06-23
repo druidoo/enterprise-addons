@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.com/druidoo/enterprise-addons.svg?branch=13.0)](https://travis-ci.com/druidoo/enterprise-addons)
-[![codecov](https://codecov.io/gh/druidoo/enterprise-addons/branch/13.0/graph/badge.svg)](https://codecov.io/gh/druidoo/enterprise-addons)
+[![Build Status](https://travis-ci.com/druidoo/enterprise-addons.svg?token=zcLjWW2AN6jGFSKVXs6q&branch=13.0)](https://travis-ci.com/druidoo/enterprise-addons)
 
 Druidoo Enterprise Addons
 ===
